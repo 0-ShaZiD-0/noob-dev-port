@@ -17,7 +17,7 @@ h2{
 }
 
 p , ul{
-    font-size: 22px;
+    font-size: 20px;
     padding-bottom: 10px;
 }
 
@@ -67,6 +67,12 @@ p , ul{
     border-radius: 10px;
 }
 
+.experience{
+    background-image: url(assets/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .experience h1{
     text-align: center;
     color: brown;
@@ -78,4 +84,25 @@ p , ul{
 
 .experience-item{
     width: 50%;
+    margin: 50px;
+    padding: 30px;
+    box-shadow: 20px 20px 50px gray;
+    border-radius: 10px;
+}
+
+.experience-item p{
+    padding: 20px 30px;
+    text-align: justify; 
+}
+
+#full-item{
+    border-image: linear-gradient(red , orange);
+    border-image-slice: 1;
+    border-left: 5px solid;
+}
+
+#ml-item {
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+    border-left: 5px solid;
 }
