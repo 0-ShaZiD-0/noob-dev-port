@@ -106,3 +106,10 @@ p , ul{
     border-image-slice: 1;
     border-left: 5px solid;
 }
+
+footer p{
+    font-weight: 700;
+    text-align: center;
+    color: gray;
+    margin-top: 150px;
+}
